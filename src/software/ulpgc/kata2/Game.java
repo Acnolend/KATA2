@@ -1,17 +1,17 @@
 package software.ulpgc.kata2;
 
 public class Game {
-    private final int rank;
-    private final String name;
-    private final String platform;
-    private final int year;
-    private final String genre;
-    private final String publisher;
-    private final double NAsales;
-    private final double EUsales;
-    private final double JPsales;
-    private final double Othersales;
-    private final double Globalsales;
+    private int rank;
+    private String name;
+    private String platform;
+    private int year;
+    private String genre;
+    private String publisher;
+    private double NAsales;
+    private double EUsales;
+    private double JPsales;
+    private double Othersales;
+    private double Globalsales;
 
     public Game(int rank, String name, String platform, int year, String genre, String publisher, double nAsales, double eUsales, double jPsales, double othersales, double globalsales) {
         this.rank = rank;
@@ -24,6 +24,50 @@ public class Game {
         EUsales = eUsales;
         JPsales = jPsales;
         Othersales = othersales;
+        Globalsales = globalsales;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPlatform(String platform) {
+        this.platform = platform;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    public void setNAsales(double NAsales) {
+        this.NAsales = NAsales;
+    }
+
+    public void setEUsales(double EUsales) {
+        this.EUsales = EUsales;
+    }
+
+    public void setJPsales(double JPsales) {
+        this.JPsales = JPsales;
+    }
+
+    public void setOthersales(double othersales) {
+        Othersales = othersales;
+    }
+
+    public void setGlobalsales(double globalsales) {
         Globalsales = globalsales;
     }
 
